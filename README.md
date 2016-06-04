@@ -1,1 +1,3 @@
 # MB_ChooChoo
+
+Test program for microblaze and to build OS basics using it ...
