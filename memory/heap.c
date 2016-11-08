@@ -6,7 +6,7 @@ void _init_heap()
 	heap.first_pool = 0; // initialize the heap pointer
 	_add_pool(&heap, (unsigned int)HEAP_ADDRESS, HEAP_SIZE, HEAP_BLOCK_SIZE);  // add block to heap
 }
-
+//testing diff
 void * _malloc(unsigned int size)
 {
 	return _BitmapAlloc(&heap, size);
